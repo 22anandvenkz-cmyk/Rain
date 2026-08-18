@@ -8,7 +8,7 @@ public class MatrixRain extends JPanel {
     private final Random random = new Random();
 
     public MatrixRain(int width, int height) {
-        setBackground(Color.BLUE);
+        setBackground(Color.RED);
         int columns = width / fontSize;
         yPositions = new int[columns];
         // Distribute the starting points randomly across the columns
